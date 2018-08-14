@@ -10,6 +10,7 @@ import { MatListModule } from '@angular/material/list';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import 'hammerjs';
 
 import { DishService } from './services/dish.service';
@@ -51,6 +52,7 @@ import { LoginComponent } from './login/login.component'
     FormsModule,
     ReactiveFormsModule,
     HttpModule,
+    MatProgressSpinnerModule,
     MatListModule,
     BrowserAnimationsModule,
     FlexLayoutModule,
