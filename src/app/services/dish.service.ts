@@ -34,4 +34,8 @@ export class DishService {
     //return Promise.resolve(DISHES.filter((dish) => (dish.featured))[3]);
   }
 
+  getDishIds(): Observable<number[] | any>{
+    return of(DISHES.map(dish => dish.id));
+  }
+
 }
